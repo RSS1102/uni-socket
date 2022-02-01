@@ -1,0 +1,20 @@
+{
+	"name": "websocket_uni",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"dependencies": {
+		"socket.io": "^4.4.1",
+		"uview-ui": "^2.0.26",
+		"vue-socket.io": "^3.0.10"
+	},
+	"devDependencies": {
+		"node-sass": "^7.0.1"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}

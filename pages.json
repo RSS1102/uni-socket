@@ -1,0 +1,54 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/talk/talk",
+
+			"style": {
+				"navigationBarTitleText": "聊天工具"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "用户管理",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/talk/talk",
+				"iconPath": "static/tabbar/talk_un.png",
+				"selectedIconPath": "static/tabbar/talk_on.png",
+				"text": "交谈"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/user_un.png",
+				"selectedIconPath": "static/tabbar/user_on.png",
+				"text": "用户"
+			}
+		]
+	}
+}
